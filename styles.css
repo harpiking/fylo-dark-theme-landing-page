@@ -140,9 +140,9 @@ a {
 .end{
   background-color: hsl(216, 53%, 9%);
 }
-@media(max-width: 700px){
+@media only screen and (max-device-width: 768px ){
   .logo{
-    width: 80px
+    width: 80px;
     height: 40px
   }
   .first, .second, .third, .reviews{
