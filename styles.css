@@ -104,7 +104,7 @@ a {
   background-color: hsl(217, 28%, 15%);
   position: relative;
   top: 6rem;
-  left: 29%;
+  left: 26%;
   z-index: 1;
   height: 250px;
   width: 700px;
@@ -141,10 +141,17 @@ a {
   background-color: hsl(216, 53%, 9%);
 }
 @media(max-width: 700px){
+  .logo{
+    width: 80px
+    height: 40px
+  }
   .first, .second, .third, .reviews{
     display: block;
     text-align: center;
 
+  }
+  .navbar{
+    margin: 0 7px;
   }
   #theSecond, #theThird{
     padding: 1.5rem;
