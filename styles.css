@@ -47,12 +47,13 @@ a {
   float: right;
 }
 .btn {
-  margin: 0.94rem;
+  margin: 0.94rem 0;
   padding: 0.75rem 3rem;
   border-radius: 35px;
   border: solid 1px grey;
   color: white;
   background-color: hsl(176, 68%, 64%);
+  text-align: center
 }
 .second, .third {
   display: grid;
